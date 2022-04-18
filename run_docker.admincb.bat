@@ -1,0 +1,1 @@
+docker run --env-file env -p 80:80 registry.red-dragon.home/fitness_client

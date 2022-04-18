@@ -1,0 +1,15 @@
+<div style="margin-bottom: 50px">
+  <p>Distance : {{ distance }}</p>
+  <p>Vitesse moyenne: {{ globalSpeed }}</p>
+  <p>Temps : {{ duration }}</p>
+</div>
+<ngx-charts-line-chart
+  [view]="view"
+  [scheme]="colorScheme"
+  [legend]="legend"
+  [showXAxisLabel]="false"
+  [showYAxisLabel]="false"
+  [yAxis]="yAxis"
+  [timeline]="timeline"
+  [results]="speedStat">
+</ngx-charts-line-chart>
